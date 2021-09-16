@@ -20,7 +20,7 @@ body {
 
 .container {
     width: 80%;
-    /* margin: auto; */
+    margin: auto;
     overflow: hidden;
 }
 
@@ -82,7 +82,7 @@ img {
 
 p {
     position: relative;
-    top: 300px;
+    top: 400px;
     font-family: 'Bungee Shade', cursive;
     font-size: 50px;
     color: white;
@@ -92,7 +92,7 @@ p {
  .sidebar {
     border-radius: 8px;
     position: absolute;
-    left: 1200px;
+    left: 1100px;
     top: 400px;
     margin-right: 100px;
     padding: 20px;
@@ -116,13 +116,11 @@ p {
 }
  input{
     font-size: 20px;
-    width: 50%;
     padding: 5px;
 }
 
  textarea {
     font-size: 20px;
-    width: 50%;
     padding: 5px;
 }
 
