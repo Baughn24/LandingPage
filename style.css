@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Libre+Baskerville&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee+Shade&family=Libre+Baskerville&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+
+
+body {
+    min-height: 400px;
+    background-image: url(big.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+} */
+
+header {
+    background-image: linear-gradient(to bottom right, #90d5e3, #ffdfa8);
+    border-top: 5px solid #111;
+    min-height: 70px;
+    padding: 5px 0;
+    
+} 
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 50px;
+    font-size: 100px;
+    text-align: center;
+    
+}
+
+ul{
+ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'El Messiri', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #849d81;
+}
+
+img { 
+    position: absolute;
+    top: 260px;
+    left: 150px;
+    z-index: 1;
+}
+
+p {
+    position: relative;
+    top: 350px;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 50px;
+    color: white;
+    z-index: 2;
+    }
+
+ .sidebar {
+    border-radius: 8px;
+    position: absolute;
+    left: 1300px;
+    top: 600px;
+    margin-right: 100px;
+    padding: 20px;
+    background-color: rgba(88, 94, 95, 0.7);
+}
+.send {
+    font-family: 'El Messiri', sans-serif;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #c6e0e5;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: 700;
+}
+
+.send:hover {
+    background-color: #849d81;
+    color: white;
+}
+
+#form input{
+    font-size: 20px;
+    width: 50%;
+    padding: 5px;
+}
+
+#form textarea {
+    font-size: 20px;
+    width: 50%;
+    padding: 5px;
+}
+
+h3 {
+    font-size: 20px;
+    text-decoration: underline;
+    line-height: 1.5;
+    padding-bottom: 5px;
+    color: #151c1d;
+}
+
+  @media (max-width: 768px) {
+      header .container, header #background {
+      flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+      }
+    }
+
+  
+
+
+
+ 
